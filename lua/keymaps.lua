@@ -19,4 +19,7 @@ set('n', '<c-j>', '<c-w>j', opt)
 set('n', '<c-k>', '<c-w>k', opt)
 set('n', '<c-l>', '<c-w>l', opt)
 
+set('n', '+', '<C-a>', opt)
+set('n', '-', '<C-x>', opt)
 
+set('n', '<C-a>', 'gg<S-v>G', opt)

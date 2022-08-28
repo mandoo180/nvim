@@ -1,4 +1,4 @@
-vim.g.mapleader = 'space'
+vim.g.mapleader = ' '
 vim.g.python3_host_prog = "/opt/homebrew/bin/python3"
 
 vim.cmd 'syntax enable'
