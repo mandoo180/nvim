@@ -37,13 +37,9 @@ return packer.startup(function(use)
 	use({ "windwp/nvim-autopairs" }) -- Autopairs, integrates with both cmp and treesitter
 	use({ "numToStr/Comment.nvim" })
 	use({ "terrortylor/nvim-comment" })
-	-- use({ "JoosepAlviste/nvim-ts-context-commentstring"})
 	use({ "kyazdani42/nvim-web-devicons" })
 	use({ "kyazdani42/nvim-tree.lua" })
-	-- use({ "akinsho/bufferline.nvim" })
 	use({ "nvim-lualine/lualine.nvim" })
-	-- use({ "akinsho/toggleterm.nvim" })
-	-- use({ "lewis6991/impatient.nvim" })
 
 	-- Colorschemes
 	use({ "folke/tokyonight.nvim" })
@@ -62,7 +58,6 @@ return packer.startup(function(use)
 
 	-- LSP
 	use({ "neovim/nvim-lspconfig" }) -- enable LSP
-	-- use({ "williamboman/nvim-lsp-installer", commit = "e9f13d7acaa60aff91c58b923002228668c8c9e6" }) -- simple to use language server installer
   use({'williamboman/mason.nvim'}) -- lsp installer
   use({'williamboman/mason-lspconfig.nvim'})
 	use({ "jose-elias-alvarez/null-ls.nvim" }) -- for formatters and linters
@@ -71,19 +66,7 @@ return packer.startup(function(use)
 	use({ "nvim-telescope/telescope.nvim" })
 
 	-- Treesitter
-	-- use({ "nvim-treesitter/nvim-treesitter", commit = "518e27589c0463af15463c9d675c65e464efc2fe", })
 	use({ "nvim-treesitter/nvim-treesitter" })
+	use({ "nvim-treesitter/nvim-treesitter-textobjects" })
 
-	-- Git
-	-- use({ "lewis6991/gitsigns.nvim" })
-
-  -- use 'mfussenegger/nvim-dap'
-  -- use "rcarriga/nvim-dap-ui"
-  -- use 'mfussenegger/nvim-jdtls'
-
-	-- Automatically set up your configuration after cloning packer.nvim
-	-- Put this at the end after all plugins
-	-- if PACKER_BOOTSTRAP then
-	-- 	require("packer").sync()
-	-- end
 end)

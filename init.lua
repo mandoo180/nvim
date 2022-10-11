@@ -9,4 +9,3 @@ require 'kyeongsoo.lualine'
 require 'kyeongsoo.lsp'
 require 'kyeongsoo.cmp'
 require 'kyeongsoo.telescope'
-

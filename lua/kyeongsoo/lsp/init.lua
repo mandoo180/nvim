@@ -71,3 +71,20 @@ lspconfig.emmet_ls.setup {
     "htmldjango",
   },
 }
+
+lspconfig.tsserver.setup {
+  on_attach = on_attach,
+  filetypes = {
+    "javascript",
+    "javascriptreact",
+    "javascript.jsx",
+    "typescript",
+    "typescriptreact",
+    "typescript.tsx",
+  }
+}
+
+lspconfig.html.setup {
+  on_attach = on_attach,
+}
+
