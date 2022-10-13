@@ -17,11 +17,14 @@ nvim_tree.setup {
       },
     },
   },
+  remove_keymaps = { "<Tab>" },
   renderer = {
     group_empty = true,
   },
   filters = {
     dotfiles = true,
   },
+  open_on_setup = true,
+  disable_netrw = true,
 }
 
