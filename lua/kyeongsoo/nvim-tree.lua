@@ -28,3 +28,4 @@ nvim_tree.setup {
   disable_netrw = true,
 }
 
+vim.api.nvim_set_keymap('n', '<Leader>e', '<CMD>NvimTreeToggle<CR>', { noremap = true })
